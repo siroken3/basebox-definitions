@@ -8,7 +8,7 @@ $ bundle
 $ bundle exec veewee
 ```
 
-Debian-6.0.7-amd64-netboot with Cehf-11.4.4
+Debian-6.0.7-amd64-netboot with Chef-11.4.4
 -------------------------------------------
 
 ```sh
