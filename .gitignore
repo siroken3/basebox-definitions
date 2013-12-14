@@ -2,3 +2,4 @@
 iso
 vendor
 *.box
+Gemfile.lock
