@@ -1,2 +1,1 @@
 yum -y install ansible
-
