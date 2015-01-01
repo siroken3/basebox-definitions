@@ -3,3 +3,4 @@ iso
 vendor
 *.box
 Gemfile.lock
+.ruby-version
