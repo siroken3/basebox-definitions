@@ -17,6 +17,15 @@ $ bundle exec veewee vbox validate CentOS-6.5-x86_64-netboot
 $ bundle exec veewee vbox export CentOS-6.5-x86_64-netboot
 ```
 
+CentOS-7.0-1406-x86_64-NetInstall
+-------------------------------------------
+
+```sh
+$ bundle exec veewee vbox build CentOS-7.0-1406-x86_64-NetInstall
+$ bundle exec veewee vbox validate CentOS-7.0-1406-x86_64-NetInstall
+$ bundle exec veewee vbox export CentOS-7.0-1406-x86_64-NetInstall
+```
+
 Debian-6.0.7-amd64-netboot
 -------------------------------------------
 
