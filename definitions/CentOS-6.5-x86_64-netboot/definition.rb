@@ -1,12 +1,12 @@
 Veewee::Session.declare({
   :cpu_count => '1',
   :memory_size=> '480',
-  :disk_size => '10140',
+  :disk_size => '20480',
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'RedHat6_64',
   :iso_file => "CentOS-6.5-x86_64-netinstall.iso",
-  :iso_src => "http://yum.singlehop.com/CentOS/6.5/isos/x86_64/CentOS-6.5-x86_64-netinstall.iso",
+  :iso_src => "http://mirror.symnds.com/distributions/CentOS-vault/6.5/isos/x86_64/CentOS-6.5-x86_64-netinstall.iso",
   :iso_md5 => "939fd1d87c11ffe7795324438b85adfb",
   :iso_download_timeout => 1000,
   :boot_wait => "10",
@@ -14,7 +14,7 @@ Veewee::Session.declare({
     '<Tab> text ks=http://%IP%:%PORT%/ks.cfg<Enter>'
   ],
   :kickstart_port => "7122",
-  :kickstart_timeout => 10000,
+  :kickstart_timeout => 300,
   :kickstart_file => "ks.cfg",
   :ssh_login_timeout => "10000",
   :ssh_user => "veewee",
