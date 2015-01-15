@@ -17,6 +17,15 @@ $ bundle exec veewee vbox validate CentOS-6.5-x86_64-netboot
 $ bundle exec veewee vbox export CentOS-6.5-x86_64-netboot
 ```
 
+[CentOS-6.6-x86_64-netinstall](https://atlas.hashicorp.com/xcezx/boxes/CentOS-6.6-x86_64-netinstall)
+-------------------------------------------
+
+```sh
+$ bundle exec veewee vbox build CentOS-6.6-x86_64-netinstall
+$ bundle exec veewee vbox validate CentOS-6.6-x86_64-netinstall
+$ bundle exec veewee vbox export CentOS-6.6-x86_64-netinstall
+```
+
 [CentOS-7.0-1406-x86_64-netinstall](https://atlas.hashicorp.com/xcezx/boxes/CentOS-7.0-1406-x86_64-netinstall)
 -------------------------------------------
 
